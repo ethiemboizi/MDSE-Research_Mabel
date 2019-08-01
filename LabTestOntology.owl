@@ -1,0 +1,3502 @@
+@prefix : <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology> .
+
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Access_device_used_by
+:Access_device_used_by rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Access_of
+:Access_of rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Active
+:Active rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Active_ingredient_of
+:Active_ingredient_of rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Associated_finding_of
+:Associated_finding_of rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Associated_morphology_of
+:Associated_morphology_of rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Associated_procedure_of
+:Associated_procedure_of rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Associated_with
+:Associated_with rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Basic_dose_form_of
+:Basic_dose_form_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Basis_of_strength_substance_of
+:Basis_of_strength_substance_of rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CASE_SIGNIFICANCE_ID
+:CASE_SIGNIFICANCE_ID rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CTV3ID
+:CTV3ID rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Causative_agent_of
+:Causative_agent_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cause_of
+:Cause_of rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Characterized_by
+:Characterized_by rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Clinical_course_of
+:Clinical_course_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Component_of
+:Component_of rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Concentration_strength_denominator_unit_of
+:Concentration_strength_denominator_unit_of rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Concentration_strength_denominator_value_of
+:Concentration_strength_denominator_value_of rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Concentration_strength_numerator_unit_of
+:Concentration_strength_numerator_unit_of rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Concentration_strength_numerator_value_of
+:Concentration_strength_numerator_value_of rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_base_of_active_ingredient_of
+:Count_of_base_of_active_ingredient_of rdf:type owl:ObjectProperty ;
+                                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#DEFAULT_LANGUAGECODE
+:DEFAULT_LANGUAGECODE rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#DEFINITION_STATUS_ID
+:DEFINITION_STATUS_ID rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Default_module_ID
+:Default_module_ID rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Definitional_manifestation_of
+:Definitional_manifestation_of rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dependent_of
+:Dependent_of rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Description_format
+:Description_format rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Description_length
+:Description_length rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Device_used_by
+:Device_used_by rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Direct_device_of
+:Direct_device_of rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Direct_morphology_of
+:Direct_morphology_of rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Direct_procedure_site_of
+:Direct_procedure_site_of rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Direct_site_of
+:Direct_site_of rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Direct_substance_of
+:Direct_substance_of rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Disposition_of
+:Disposition_of rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dose_form_administration_method_of
+:Dose_form_administration_method_of rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dose_form_intended_site_of
+:Dose_form_intended_site_of rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dose_form_of
+:Dose_form_of rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dose_form_release_characteristic_of
+:Dose_form_release_characteristic_of rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dose_form_transformation_of
+:Dose_form_transformation_of rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Due_to
+:Due_to rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Effective_time
+:Effective_time rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Energy_used_by
+:Energy_used_by rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Entire_anatomy_structure_of
+:Entire_anatomy_structure_of rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#FROMRSAB
+:FROMRSAB rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#FROMVSAB
+:FROMVSAB rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Finding_context_of
+:Finding_context_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Finding_informer_of
+:Finding_informer_of rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Finding_method_of
+:Finding_method_of rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Finding_site_of
+:Finding_site_of rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Focus_of
+:Focus_of rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_access
+:Has_access rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_active_ingredient
+:Has_active_ingredient rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_associated_finding
+:Has_associated_finding rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_associated_morphology
+:Has_associated_morphology rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_associated_procedure
+:Has_associated_procedure rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_basic_dose_form
+:Has_basic_dose_form rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_basis_of_strength_substance
+:Has_basis_of_strength_substance rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_causative_agent
+:Has_causative_agent rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_clinical_course
+:Has_clinical_course rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_component
+:Has_component rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_concentration_strength_denominator_unit
+:Has_concentration_strength_denominator_unit rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_concentration_strength_denominator_value
+:Has_concentration_strength_denominator_value rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_concentration_strength_numerator_unit
+:Has_concentration_strength_numerator_unit rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_concentration_strength_numerator_value
+:Has_concentration_strength_numerator_value rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_count_of_base_of_active_ingredient
+:Has_count_of_base_of_active_ingredient rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_definitional_manifestation
+:Has_definitional_manifestation rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_dependent
+:Has_dependent rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_direct_device
+:Has_direct_device rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_direct_morphology
+:Has_direct_morphology rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_direct_procedure_site
+:Has_direct_procedure_site rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_direct_site
+:Has_direct_site rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_direct_substance
+:Has_direct_substance rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_disposition
+:Has_disposition rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_dose_form
+:Has_dose_form rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_dose_form_administration_method
+:Has_dose_form_administration_method rdf:type owl:ObjectProperty ;
+                                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_dose_form_intended_site
+:Has_dose_form_intended_site rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_dose_form_release_characteristic
+:Has_dose_form_release_characteristic rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_dose_form_transformation
+:Has_dose_form_transformation rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_entire_anatomy_structure
+:Has_entire_anatomy_structure rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_finding_context
+:Has_finding_context rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_finding_informer
+:Has_finding_informer rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_finding_method
+:Has_finding_method rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_finding_site
+:Has_finding_site rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_focus
+:Has_focus rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_indirect_device
+:Has_indirect_device rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_indirect_morphology
+:Has_indirect_morphology rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_indirect_procedure_site
+:Has_indirect_procedure_site rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_inherent_attribute
+:Has_inherent_attribute rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_inherent_location
+:Has_inherent_location rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_intent
+:Has_intent rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_interpretation
+:Has_interpretation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_laterality
+:Has_laterality rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_measurement_method
+:Has_measurement_method rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_method
+:Has_method rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_modification
+:Has_modification rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_occurrence
+:Has_occurrence rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_part
+:Has_part rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_part_anatomy_structure
+:Has_part_anatomy_structure rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_pathological_process
+:Has_pathological_process rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_precise_active_ingredient
+:Has_precise_active_ingredient rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_precondition
+:Has_precondition rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_presentation_strength_denominator_unit
+:Has_presentation_strength_denominator_unit rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_presentation_strength_denominator_value
+:Has_presentation_strength_denominator_value rdf:type owl:ObjectProperty ;
+                                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_presentation_strength_numerator_unit
+:Has_presentation_strength_numerator_unit rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_presentation_strength_numerator_value
+:Has_presentation_strength_numerator_value rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_priority
+:Has_priority rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_procedure_context
+:Has_procedure_context rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_procedure_device
+:Has_procedure_device rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_procedure_morphology
+:Has_procedure_morphology rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_procedure_site
+:Has_procedure_site rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_process_output
+:Has_process_output rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_property
+:Has_property rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_recipient_category
+:Has_recipient_category rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_revision_status
+:Has_revision_status rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_route_of_administration
+:Has_route_of_administration rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_scale_type
+:Has_scale_type rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_severity
+:Has_severity rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_specimen
+:Has_specimen rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_specimen_procedure
+:Has_specimen_procedure rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_specimen_source_identity
+:Has_specimen_source_identity rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_specimen_source_morphology
+:Has_specimen_source_morphology rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_specimen_source_topography
+:Has_specimen_source_topography rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_specimen_substance
+:Has_specimen_substance rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_state_of_matter
+:Has_state_of_matter rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_subject_relationship_context
+:Has_subject_relationship_context rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_surgical_approach
+:Has_surgical_approach rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_technique
+:Has_technique rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_temporal_context
+:Has_temporal_context rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_time_aspect
+:Has_time_aspect rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Has_unit_of_presentation
+:Has_unit_of_presentation rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#ICD-O-3_Code
+:ICD-O-3_Code rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#INACTIVATION_INDICATOR
+:INACTIVATION_INDICATOR rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Indirect_device_of
+:Indirect_device_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Indirect_morphology_of
+:Indirect_morphology_of rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Indirect_procedure_site_of
+:Indirect_procedure_site_of rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Inherent_location_of
+:Inherent_location_of rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Inheres_in
+:Inheres_in rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Intent_of
+:Intent_of rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Interpretation_of
+:Interpretation_of rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Inverse_of_during
+:Inverse_of_during rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Is_interpreted_by
+:Is_interpreted_by rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Is_modification_of
+:Is_modification_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laterality_of
+:Laterality_of rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MAPSETNAME
+:MAPSETNAME rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MAPSETRSAB
+:MAPSETRSAB rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MAPSETSID
+:MAPSETSID rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MAPSETVERSION
+:MAPSETVERSION rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MAPSETVSAB
+:MAPSETVSAB rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MAPSETXRTARGETID
+:MAPSETXRTARGETID rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MTH_MAPFROMCOMPLEXITY
+:MTH_MAPFROMCOMPLEXITY rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MTH_MAPFROMEXHAUSTIVE
+:MTH_MAPFROMEXHAUSTIVE rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MTH_MAPSETCOMPLEXITY
+:MTH_MAPSETCOMPLEXITY rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MTH_MAPTOCOMPLEXITY
+:MTH_MAPTOCOMPLEXITY rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MTH_MAPTOEXHAUSTIVE
+:MTH_MAPTOEXHAUSTIVE rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Measurement_method_of
+:Measurement_method_of rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Method_of
+:Method_of rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Module_ID
+:Module_ID rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Occurs_after
+:Occurs_after rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Occurs_before
+:Occurs_before rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Occurs_in
+:Occurs_in rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Part_anatomy_structure_of
+:Part_anatomy_structure_of rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Part_of
+:Part_of rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Part_referred_to_by
+:Part_referred_to_by rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Pathological_process_of
+:Pathological_process_of rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Precise_active_ingredient_of
+:Precise_active_ingredient_of rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Precondition_of
+:Precondition_of rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Presentation_strength_denominator_unit_of
+:Presentation_strength_denominator_unit_of rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Presentation_strength_denominator_value_of
+:Presentation_strength_denominator_value_of rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Presentation_strength_numerator_unit_of
+:Presentation_strength_numerator_unit_of rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Presentation_strength_numerator_value_of
+:Presentation_strength_numerator_value_of rdf:type owl:ObjectProperty ;
+                                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Priority_of
+:Priority_of rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Procedure_context_of
+:Procedure_context_of rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Procedure_device_of
+:Procedure_device_of rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Procedure_morphology_of
+:Procedure_morphology_of rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Procedure_site_of
+:Procedure_site_of rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Process_output_of
+:Process_output_of rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Property_of
+:Property_of rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Recipient_category_of
+:Recipient_category_of rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Refset_pattern
+:Refset_pattern rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Relative_to_part_of
+:Relative_to_part_of rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Revision_status_of
+:Revision_status_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Route_of_administration_of
+:Route_of_administration_of rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Scale_type_of
+:Scale_type_of rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Scope_Statement
+:Scope_Statement rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Semantic_type_UMLS_property
+:Semantic_type_UMLS_property rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Severity_of
+:Severity_of rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_of
+:Specimen_of rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_procedure_of
+:Specimen_procedure_of rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_source_identity_of
+:Specimen_source_identity_of rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_source_morphology_of
+:Specimen_source_morphology_of rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_source_topography_of
+:Specimen_source_topography_of rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_substance_of
+:Specimen_substance_of rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#State_of_matter_of
+:State_of_matter_of rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Subject_relationship_context_of
+:Subject_relationship_context_of rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Subset_member
+:Subset_member rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Substance_used_by
+:Substance_used_by rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Surgical_approach_of
+:Surgical_approach_of rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#TORSAB
+:TORSAB rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#TOVSAB
+:TOVSAB rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Technique_of
+:Technique_of rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Temporal_context_of
+:Temporal_context_of rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Temporally_related_to
+:Temporally_related_to rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Time_aspect_of
+:Time_aspect_of rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Type_ID
+:Type_ID rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#UMLSREL
+:UMLSREL rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#UMLSRELA
+:UMLSRELA rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Unit_of_presentation_of
+:Unit_of_presentation_of rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Uses_access_device
+:Uses_access_device rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Uses_device
+:Uses_device rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Uses_energy
+:Uses_energy rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Uses_substance
+:Uses_substance rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#characterizes
+:characterizes rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#during
+:during rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#interprets
+:interprets rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/Laboratory_reporting
+<http://www.semanticweb.org/juliet/ontologies/2019/6/Laboratory_reporting> rdf:type owl:Class ;
+                                                                           owl:equivalentClass :Laboratory_test ;
+                                                                           rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD103_count
+:Absolute_CD103_count rdf:type owl:Class ;
+                      rdfs:subClassOf :CD103_count .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD16_count
+:Absolute_CD16_count rdf:type owl:Class ;
+                     rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD19_count
+:Absolute_CD19_count rdf:type owl:Class ;
+                     rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD25_count
+:Absolute_CD25_count rdf:type owl:Class ;
+                     rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD3_count_procedure
+:Absolute_CD3_count_procedure rdf:type owl:Class ;
+                              rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD4_count_procedure
+:Absolute_CD4_count_procedure rdf:type owl:Class ;
+                              rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD56_count
+:Absolute_CD56_count rdf:type owl:Class ;
+                     rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Absolute_CD8_count_procedure
+:Absolute_CD8_count_procedure rdf:type owl:Class ;
+                              rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Alpha-1-antitrypsin_phenotype_determination
+:Alpha-1-antitrypsin_phenotype_determination rdf:type owl:Class ;
+                                             rdfs:subClassOf :Phenotype_determination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Anatomic_pathology_procedure
+:Anatomic_pathology_procedure rdf:type owl:Class ;
+                              rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibacterial_substance_screening_test
+:Antibacterial_substance_screening_test rdf:type owl:Class ;
+                                        rdfs:subClassOf :Microbiology_screening_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antimicrobial_susceptibility_test
+:Antimicrobial_susceptibility_test rdf:type owl:Class ;
+                                   rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Apolipoprotein_E_phenotype_determination
+:Apolipoprotein_E_phenotype_determination rdf:type owl:Class ;
+                                          rdfs:subClassOf :Phenotype_determination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#B-cell_antigen_detection
+:B-cell_antigen_detection rdf:type owl:Class ;
+                          rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_count
+:Bacterial_count rdf:type owl:Class ;
+                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_identification_method
+:Bacterial_identification_method rdf:type owl:Class ;
+                                 rdfs:subClassOf :Microbiological_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_killing_test
+:Bacterial_killing_test rdf:type owl:Class ;
+                        rdfs:subClassOf :Organism_killing_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_strain_typing
+:Bacterial_strain_typing rdf:type owl:Class ;
+                         rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_subtyping
+:Bacterial_subtyping rdf:type owl:Class ;
+                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_typing_procedure
+:Bacterial_typing_procedure rdf:type owl:Class ;
+                            rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacteriology_-_general
+:Bacteriology_-_general rdf:type owl:Class ;
+                        rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Ballistospore_test_for_molds
+:Ballistospore_test_for_molds rdf:type owl:Class ;
+                              rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Blastomyces_dermatitidis_exoantigen_identification
+:Blastomyces_dermatitidis_exoantigen_identification rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Exoantigen_test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Body_fluid_analysis
+:Body_fluid_analysis rdf:type owl:Class ;
+                     rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Broth_microdilution_susceptibility_test
+:Broth_microdilution_susceptibility_test rdf:type owl:Class ;
+                                         rdfs:subClassOf :Organism_inhibition_test ;
+                                         owl:disjointWith :Serum_inhibitory_titer_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Broth_microdilution_susceptibility_test_for_Mycobacteria
+:Broth_microdilution_susceptibility_test_for_Mycobacteria rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Broth_microdilution_susceptibility_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Broth_microdilution_susceptibility_test_for_Nocardia
+:Broth_microdilution_susceptibility_test_for_Nocardia rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Broth_microdilution_susceptibility_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Broth_microdilution_susceptibility_test_for_anaerobes
+:Broth_microdilution_susceptibility_test_for_anaerobes rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Broth_microdilution_susceptibility_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD103_count
+:CD103_count rdf:type owl:Class ;
+             rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD10_count
+:CD10_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD11c_count
+:CD11c_count rdf:type owl:Class ;
+             rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD13_myeloid_count_procedure
+:CD13_myeloid_count_procedure rdf:type owl:Class ;
+                              rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD14_monocyte_count_procedure
+:CD14_monocyte_count_procedure rdf:type owl:Class ;
+                               rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD16_count
+:CD16_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD19_B-cell_count_procedure
+:CD19_B-cell_count_procedure rdf:type owl:Class ;
+                             rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD1a_count
+:CD1a_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD20_B-cell_count_procedure
+:CD20_B-cell_count_procedure rdf:type owl:Class ;
+                             rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD21_count
+:CD21_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD22_B-cell_count_procedure
+:CD22_B-cell_count_procedure rdf:type owl:Class ;
+                             rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD23_B-cell_count_procedure
+:CD23_B-cell_count_procedure rdf:type owl:Class ;
+                             rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD2_T-cell_count_procedure
+:CD2_T-cell_count_procedure rdf:type owl:Class ;
+                            rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD2_T-cell_count_procedure___CD20_B-cell_count_procedure___CD23_B-cell_count_procedure___CD3_percent_count___CD33_myeloid_cell_count_procedure___Spacer_CD4_percent_count___CD7_T-cells_count_procedure___CD8_percent_count___Spacer_Lymphocyte_count_by_CD_antigen_phenotype
+:CD2_T-cell_count_procedure___CD20_B-cell_count_procedure___CD23_B-cell_count_procedure___CD3_percent_count___CD33_myeloid_cell_count_procedure___Spacer_CD4_percent_count___CD7_T-cells_count_procedure___CD8_percent_count___Spacer_Lymphocyte_count_by_CD_antigen_phenotype rdf:type owl:Class ;
+                                                                                                                                                                                                                                                                               rdfs:subClassOf :CD4_percent_count .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD33_myeloid_cell_count_procedure
+:CD33_myeloid_cell_count_procedure rdf:type owl:Class ;
+                                   rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD34_stem_cell_count_procedure
+:CD34_stem_cell_count_procedure rdf:type owl:Class ;
+                                rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD38_count
+:CD38_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD3_T-cell_count_procedure
+:CD3_T-cell_count_procedure rdf:type owl:Class ;
+                            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD3_percent_count
+:CD3_percent_count rdf:type owl:Class ;
+                   rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD41_count
+:CD41_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD4_percent_count
+:CD4_percent_count rdf:type owl:Class ;
+                   rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD5_count
+:CD5_count rdf:type owl:Class ;
+           rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD64_count
+:CD64_count rdf:type owl:Class ;
+            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD79b_count
+:CD79b_count rdf:type owl:Class ;
+             rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD7_T-cells_count_procedure
+:CD7_T-cells_count_procedure rdf:type owl:Class ;
+                             rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD8_percent_count
+:CD8_percent_count rdf:type owl:Class ;
+                   rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CLO_test_for_helicobacter_pylori
+:CLO_test_for_helicobacter_pylori rdf:type owl:Class ;
+                                  rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cell_chromosome_examination
+:Cell_chromosome_examination rdf:type owl:Class ;
+                             rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cell_count_by_CD_antigen_phenotype
+:Cell_count_by_CD_antigen_phenotype rdf:type owl:Class ;
+                                    rdfs:subClassOf :Cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cell_marker_analysis
+:Cell_marker_analysis rdf:type owl:Class ;
+                      rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cell_phenotyping
+:Cell_phenotyping rdf:type owl:Class ;
+                  rdfs:subClassOf :Phenotype_determination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Centrifugation_following_chemical_treatment
+:Centrifugation_following_chemical_treatment rdf:type owl:Class ;
+                                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cerebrospinal_fluid_microscopy_culture_and_sensitivities
+:Cerebrospinal_fluid_microscopy_culture_and_sensitivities rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Chemical_test_qualitative_and_quantitative
+:Chemical_test_qualitative_and_quantitative rdf:type owl:Class ;
+                                            rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Chemical_test_quantitative
+:Chemical_test_quantitative rdf:type owl:Class ;
+                            rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Chemical_test_semi-quantitative
+:Chemical_test_semi-quantitative rdf:type owl:Class ;
+                                 rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cholinesterase_phenotype_determination
+:Cholinesterase_phenotype_determination rdf:type owl:Class ;
+                                        rdfs:subClassOf :Phenotype_determination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cluster_of_differentiation_antigen_38_percentage_count_procedure
+:Cluster_of_differentiation_antigen_38_percentage_count_procedure rdf:type owl:Class ;
+                                                                  rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cluster_of_differentiation_antigen_57_percentage_count_procedure
+:Cluster_of_differentiation_antigen_57_percentage_count_procedure rdf:type owl:Class ;
+                                                                  rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cluster_of_differentiation_antigen_59_count_procedure
+:Cluster_of_differentiation_antigen_59_count_procedure rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cluster_of_differentiation_antigen_count_procedure
+:Cluster_of_differentiation_antigen_count_procedure rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Lymphocyte_count_by_cell_surface_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cluster_of_differentiation_antigen_detection
+:Cluster_of_differentiation_antigen_detection rdf:type owl:Class ;
+                                              rdfs:subClassOf :Cell_marker_analysis ;
+                                              owl:disjointWith :Paroxysmal_nocturnal_hemoglobinuria_cell_marker_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Coccidioides_immitis_exoantigen_identification
+:Coccidioides_immitis_exoantigen_identification rdf:type owl:Class ;
+                                                rdfs:subClassOf :Exoantigen_test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Coliform_bacteria_viability_count
+:Coliform_bacteria_viability_count rdf:type owl:Class ;
+                                   rdfs:subClassOf :Quantitation_of_bacteria .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Colony_count
+:Colony_count rdf:type owl:Class ;
+              rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Concentration_for_ova_and_cysts
+:Concentration_for_ova_and_cysts rdf:type owl:Class ;
+                                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_CD3_antigen_and_CD4_antigen_and_CD8_antigen
+:Count_of_cells_positive_for_CD3_antigen_and_CD4_antigen_and_CD8_antigen rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_both_CD10_antigen_and_CD19_antigen
+:Count_of_cells_positive_for_both_CD10_antigen_and_CD19_antigen rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_both_CD19_antigen_and_CD38_antigen
+:Count_of_cells_positive_for_both_CD19_antigen_and_CD38_antigen rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_both_CD19_antigen_and_kappa_immunoglobulin_light_chain
+:Count_of_cells_positive_for_both_CD19_antigen_and_kappa_immunoglobulin_light_chain rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_both_CD19_antigen_and_lambda_immunoglobulin_light_chain
+:Count_of_cells_positive_for_both_CD19_antigen_and_lambda_immunoglobulin_light_chain rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_both_CD20_antigen_and_CD23_antigen
+:Count_of_cells_positive_for_both_CD20_antigen_and_CD23_antigen rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Count_of_cells_positive_for_both_CD3_antigen_and_CD56_antigen
+:Count_of_cells_positive_for_both_CD3_antigen_and_CD56_antigen rdf:type owl:Class ;
+                                                               rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cover_slip_preparation
+:Cover_slip_preparation rdf:type owl:Class ;
+                        rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cryopreservation
+:Cryopreservation rdf:type owl:Class ;
+                  rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Crystal_identification
+:Crystal_identification rdf:type owl:Class ;
+                        rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Culture_and_susceptibility
+:Culture_and_susceptibility rdf:type owl:Class ;
+                            rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Culture_sensitivity
+:Culture_sensitivity rdf:type owl:Class ;
+                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cyclohexamide_resistance_test_for_molds
+:Cyclohexamide_resistance_test_for_molds rdf:type owl:Class ;
+                                         rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cytochemical_test
+:Cytochemical_test rdf:type owl:Class ;
+                   rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cytologic_test
+:Cytologic_test rdf:type owl:Class ;
+                rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Cytotoxic_T-lymphocyte_precursor_frequency_determination
+:Cytotoxic_T-lymphocyte_precursor_frequency_determination rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dairy_food_test
+:Dairy_food_test rdf:type owl:Class ;
+                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Genus_Ehrlichia_using_polymerase_chain_reaction_technique
+:Detection_of_Genus_Ehrlichia_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Helicobacter_pylori_using_polymerase_chain_reaction_technique
+:Detection_of_Helicobacter_pylori_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Human_herpesvirus_3_using_polymerase_chain_reaction_technique
+:Detection_of_Human_herpesvirus_3_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Human_herpesvirus_6_using_polymerase_chain_reaction_technique
+:Detection_of_Human_herpesvirus_6_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Human_herpesvirus_8_using_polymerase_chain_reaction_technique
+:Detection_of_Human_herpesvirus_8_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Influenza_A_virus_subtype_H1N1_using_polymerase_chain_reaction_technique
+:Detection_of_Influenza_A_virus_subtype_H1N1_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Measles_virus_using_polymerase_chain_reaction_technique
+:Detection_of_Measles_virus_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_Treponema_pallidum_using_polymerase_chain_reaction_technique
+:Detection_of_Treponema_pallidum_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_avian_influenza_A_using_polymerase_chain_reaction_technique
+:Detection_of_avian_influenza_A_using_polymerase_chain_reaction_technique rdf:type owl:Class ;
+                                                                          rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_bacteria
+:Detection_of_bacteria rdf:type owl:Class ;
+                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_fungus
+:Detection_of_fungus rdf:type owl:Class ;
+                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_parasite
+:Detection_of_parasite rdf:type owl:Class ;
+                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_virus
+:Detection_of_virus rdf:type owl:Class ;
+                    rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Detection_of_virus_particle
+:Detection_of_virus_particle rdf:type owl:Class ;
+                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Determination_of_acetylation_rate
+:Determination_of_acetylation_rate rdf:type owl:Class ;
+                                   rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Determination_of_organism_growth
+:Determination_of_organism_growth rdf:type owl:Class ;
+                                  rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dynamic_endocrine_function_test
+:Dynamic_endocrine_function_test rdf:type owl:Class ;
+                                 rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Egg_inoculation
+:Egg_inoculation rdf:type owl:Class ;
+                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Employee_health_culture
+:Employee_health_culture rdf:type owl:Class ;
+                         rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Endophyte_identification
+:Endophyte_identification rdf:type owl:Class ;
+                          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Environmental_culture
+:Environmental_culture rdf:type owl:Class ;
+                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Eutrophication
+:Eutrophication rdf:type owl:Class ;
+                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Evaluation_of_acid-base_test
+:Evaluation_of_acid-base_test rdf:type owl:Class ;
+                              rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Evaluation_of_hypoglycemic_response
+:Evaluation_of_hypoglycemic_response rdf:type owl:Class ;
+                                     rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Evaluation_of_iron_stores
+:Evaluation_of_iron_stores rdf:type owl:Class ;
+                           rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Evocative_or_suppression_testing_panel
+:Evocative_or_suppression_testing_panel rdf:type owl:Class ;
+                                        rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Examination_of_cells
+:Examination_of_cells rdf:type owl:Class ;
+                      rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Examination_of_feces
+:Examination_of_feces rdf:type owl:Class ;
+                      rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Exoantigen_test_for_molds
+:Exoantigen_test_for_molds rdf:type owl:Class ;
+                           rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#FMC7_absolute_count
+:FMC7_absolute_count rdf:type owl:Class ;
+                     rdfs:subClassOf :Cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fasting_kidney_panel
+:Fasting_kidney_panel rdf:type owl:Class ;
+                      rdfs:subClassOf :Kidney_panel .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fasting_lipid_profile
+:Fasting_lipid_profile rdf:type owl:Class ;
+                       rdfs:subClassOf :Lipid_panel .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fecal_starch_test
+:Fecal_starch_test rdf:type owl:Class ;
+                   rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fine_needle_aspirate_with_routine_interpretation_and_report
+:Fine_needle_aspirate_with_routine_interpretation_and_report rdf:type owl:Class ;
+                                                             rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Food_analysis
+:Food_analysis rdf:type owl:Class ;
+               rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Free_radical_assay_technique_measurement
+:Free_radical_assay_technique_measurement rdf:type owl:Class ;
+                                          rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Freezing_and_thawing_of_culture
+:Freezing_and_thawing_of_culture rdf:type owl:Class ;
+                                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fungal_identification_method
+:Fungal_identification_method rdf:type owl:Class ;
+                              rdfs:subClassOf :Microbiological_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fungal_killing_test
+:Fungal_killing_test rdf:type owl:Class ;
+                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fungal_studies
+:Fungal_studies rdf:type owl:Class ;
+                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fungal_subtyping
+:Fungal_subtyping rdf:type owl:Class ;
+                  rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#General_health_panel
+:General_health_panel rdf:type owl:Class ;
+                      rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Genetic_test
+:Genetic_test rdf:type owl:Class ;
+              rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Genotype_determination
+:Genotype_determination rdf:type owl:Class ;
+                        rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Grinding_of_tissue_for_culture
+:Grinding_of_tissue_for_culture rdf:type owl:Class ;
+                                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Hairy_cell_marker_test
+:Hairy_cell_marker_test rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Handling_of_microbiologic_test_report
+:Handling_of_microbiologic_test_report rdf:type owl:Class ;
+                                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Helper_T-cell_antigen_measurement
+:Helper_T-cell_antigen_measurement rdf:type owl:Class ;
+                                   rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Helper_T-lymphocyte_precursor_frequency_measurement
+:Helper_T-lymphocyte_precursor_frequency_measurement rdf:type owl:Class ;
+                                                     rdfs:subClassOf :T-lymphocyte_precursor_frequency_measurement .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Helper_suppressor_ratio_determination
+:Helper_suppressor_ratio_determination rdf:type owl:Class ;
+                                       rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Hematology_procedure
+:Hematology_procedure rdf:type owl:Class ;
+                      rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Hepatic_function_panel
+:Hepatic_function_panel rdf:type owl:Class ;
+                        rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Histologic_test
+:Histologic_test rdf:type owl:Class ;
+                 rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Histoplasma_capsulatum_exoantigen_identification
+:Histoplasma_capsulatum_exoantigen_identification rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Exoantigen_test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Identification_procedure_for_living_organism
+:Identification_procedure_for_living_organism rdf:type owl:Class ;
+                                              rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immune_cell_phenotyping
+:Immune_cell_phenotyping rdf:type owl:Class ;
+                         rdfs:subClassOf :Cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing
+:Immunoglobulin_typing rdf:type owl:Class ;
+                       rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunology_laboratory_test
+:Immunology_laboratory_test rdf:type owl:Class ;
+                            rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#In_vitro_hair_test_for_molds
+:In_vitro_hair_test_for_molds rdf:type owl:Class ;
+                              rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Infection_control_culture_overnight
+:Infection_control_culture_overnight rdf:type owl:Class ;
+                                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Infectious_agent_genotype_identification
+:Infectious_agent_genotype_identification rdf:type owl:Class ;
+                                          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Infertility_studies
+:Infertility_studies rdf:type owl:Class ;
+                     rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Iron_absorption_measurement
+:Iron_absorption_measurement rdf:type owl:Class ;
+                             rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Radionuclide_study,_protein_kinetics> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Iron_clearance_measurement
+:Iron_clearance_measurement rdf:type owl:Class ;
+                            rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Radionuclide_study,_protein_kinetics> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Iron_kinetics_study
+:Iron_kinetics_study rdf:type owl:Class ;
+                     rdfs:subClassOf :Pharmacokinetic_study ;
+                     owl:disjointWith <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Radionuclide_study,_protein_kinetics> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Iron_utilization_measurement
+:Iron_utilization_measurement rdf:type owl:Class ;
+                              rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Radionuclide_study,_protein_kinetics> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Kidney_panel
+:Kidney_panel rdf:type owl:Class ;
+              rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Kirby_Bauer_test
+:Kirby_Bauer_test rdf:type owl:Class ;
+                  rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laboratory_procedure
+:Laboratory_procedure rdf:type owl:Class ;
+                      rdfs:subClassOf :Procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laboratory_procedure_categorized_by_method
+:Laboratory_procedure_categorized_by_method rdf:type owl:Class ;
+                                            rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laboratory_procedure_related_to_reproduction
+:Laboratory_procedure_related_to_reproduction rdf:type owl:Class ;
+                                              rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laboratory_test
+:Laboratory_test rdf:type owl:Class ;
+                 rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laboratory_test_order_by_laboratory_initiative
+:Laboratory_test_order_by_laboratory_initiative rdf:type owl:Class ;
+                                                rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Laboratory_test_order_cancelation
+:Laboratory_test_order_cancelation rdf:type owl:Class ;
+                                   rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lipid_panel
+:Lipid_panel rdf:type owl:Class ;
+             rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Liquefaction_of_specimen_with_chemical_treatment
+:Liquefaction_of_specimen_with_chemical_treatment rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Liquefaction_of_specimen_without_chemical_treatment
+:Liquefaction_of_specimen_without_chemical_treatment rdf:type owl:Class ;
+                                                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Liver_function_tests_-_general
+:Liver_function_tests_-_general rdf:type owl:Class ;
+                                rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lymphocyte_count_by_CD_antigen_phenotype
+:Lymphocyte_count_by_CD_antigen_phenotype rdf:type owl:Class ;
+                                          rdfs:subClassOf :Cell_count_by_CD_antigen_phenotype .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lymphocyte_count_by_cell_surface_antigen_phenotype
+:Lymphocyte_count_by_cell_surface_antigen_phenotype rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lyophilization_of_culture
+:Lyophilization_of_culture rdf:type owl:Class ;
+                           rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lysozyme_resistance_test
+:Lysozyme_resistance_test rdf:type owl:Class ;
+                          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#MUG_test
+:MUG_test rdf:type owl:Class ;
+          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Macroscopic_parasitic_identification_method
+:Macroscopic_parasitic_identification_method rdf:type owl:Class ;
+                                             rdfs:subClassOf :Sample_macroscopy ;
+                                             owl:disjointWith :Urine_inspection .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Malarial_parasite_screening_test
+:Malarial_parasite_screening_test rdf:type owl:Class ;
+                                  rdfs:subClassOf :Microbiology_screening_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Maternal_cervical_assessment
+:Maternal_cervical_assessment rdf:type owl:Class ;
+                              rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Menopausal_profile
+:Menopausal_profile rdf:type owl:Class ;
+                    rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Methylene_blue_plating_test
+:Methylene_blue_plating_test rdf:type owl:Class ;
+                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_culture
+:Microbial_culture rdf:type owl:Class ;
+                   rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_dry_smear
+:Microbial_dry_smear rdf:type owl:Class ;
+                     rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_identification_test
+:Microbial_identification_test rdf:type owl:Class ;
+                               rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_ova-parasite_examination
+:Microbial_ova-parasite_examination rdf:type owl:Class ;
+                                    rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear_examination
+:Microbial_smear_examination rdf:type owl:Class ;
+                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_wet_smear
+:Microbial_wet_smear rdf:type owl:Class ;
+                     rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_wet_smear_for_fungus
+:Microbial_wet_smear_for_fungus rdf:type owl:Class ;
+                                rdfs:subClassOf :Microbial_wet_smear ;
+                                owl:disjointWith <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_wet_smear,_tease_preparation> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_media_preparation
+:Microbiologic_media_preparation rdf:type owl:Class ;
+                                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiological_identification_method
+:Microbiological_identification_method rdf:type owl:Class ;
+                                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiology
+:Microbiology rdf:type owl:Class ;
+              rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiology_battery_test
+:Microbiology_battery_test rdf:type owl:Class ;
+                           rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiology_procedure
+:Microbiology_procedure rdf:type owl:Class ;
+                        rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiology_screening_test
+:Microbiology_screening_test rdf:type owl:Class ;
+                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_blood_specimen
+:Microscopic_examination_of_bacterial_smear_of_blood_specimen rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_cerebrospinal_fluid_specimen
+:Microscopic_examination_of_bacterial_smear_of_cerebrospinal_fluid_specimen rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_joint_fluid_specimen
+:Microscopic_examination_of_bacterial_smear_of_joint_fluid_specimen rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_lymph_fluid_specimen
+:Microscopic_examination_of_bacterial_smear_of_lymph_fluid_specimen rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_seminal_fluid_specimen
+:Microscopic_examination_of_bacterial_smear_of_seminal_fluid_specimen rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_biliary_tract
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_biliary_tract rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_bladder
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_bladder rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_bone_marrow
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_bone_marrow rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_endocrine_gland
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_endocrine_gland rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_eye_proper
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_eye_proper rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_female_genital_tract
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_female_genital_tract rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_integument
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_integument rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_kidney
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_kidney rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_liver
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_liver rdf:type owl:Class ;
+                                                                   rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_lower_gastrointestinal_tract
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_lower_gastrointestinal_tract rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_lymph_node
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_lymph_node rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_musculoskeletal_system
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_musculoskeletal_system rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_nervous_system
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_nervous_system rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_pancreas
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_pancreas rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_perirenal_tissue
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_perirenal_tissue rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :Microscopic_examination_of_bacterial_smear_of_specimen_from_retroperitoneum ;
+                                                                              owl:disjointWith :Microscopic_examination_of_bacterial_smear_of_specimen_from_periureteral_tissue .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_peritoneum
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_peritoneum rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_periureteral_tissue
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_periureteral_tissue rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :Microscopic_examination_of_bacterial_smear_of_specimen_from_retroperitoneum .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_perivesical_tissue
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_perivesical_tissue rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_prostate
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_prostate rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_retroperitoneum
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_retroperitoneum rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_seminal_vesicle
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_seminal_vesicle rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_skin
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_skin rdf:type owl:Class ;
+                                                                  rdfs:subClassOf :Microscopic_examination_of_bacterial_smear_of_specimen_from_integument .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_spleen
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_spleen rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_surgical_wound
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_surgical_wound rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_upper_gastrointestinal_tract
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_upper_gastrointestinal_tract rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_ureter
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_ureter rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_specimen_from_urethra
+:Microscopic_examination_of_bacterial_smear_of_specimen_from_urethra rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_sputum_specimen
+:Microscopic_examination_of_bacterial_smear_of_sputum_specimen rdf:type owl:Class ;
+                                                               rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_stool_specimen
+:Microscopic_examination_of_bacterial_smear_of_stool_specimen rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_urine_specimen
+:Microscopic_examination_of_bacterial_smear_of_urine_specimen rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_examination_of_bacterial_smear_of_vomitus_specimen
+:Microscopic_examination_of_bacterial_smear_of_vomitus_specimen rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopic_parasitic_identification_method
+:Microscopic_parasitic_identification_method rdf:type owl:Class ;
+                                             rdfs:subClassOf :Parasitic_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Minimum_fungicidal_concentration_measurement
+:Minimum_fungicidal_concentration_measurement rdf:type owl:Class ;
+                                              rdfs:subClassOf :Organism_killing_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mold_to_yeast_conversion_test
+:Mold_to_yeast_conversion_test rdf:type owl:Class ;
+                               rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Molecular_genetics_procedure
+:Molecular_genetics_procedure rdf:type owl:Class ;
+                              rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Motility_test
+:Motility_test rdf:type owl:Class ;
+               rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycobacterial_subtyping
+:Mycobacterial_subtyping rdf:type owl:Class ;
+                         rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycology
+:Mycology rdf:type owl:Class ;
+          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Myeloid_antigen_detection
+:Myeloid_antigen_detection rdf:type owl:Class ;
+                           rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Natural_killer_cell_antigen_detection
+:Natural_killer_cell_antigen_detection rdf:type owl:Class ;
+                                       rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Nonlineage_cell_antigen_detection
+:Nonlineage_cell_antigen_detection rdf:type owl:Class ;
+                                   rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Novobiocin_susceptibility_test
+:Novobiocin_susceptibility_test rdf:type owl:Class ;
+                                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Nutritional_test_for_molds
+:Nutritional_test_for_molds rdf:type owl:Class ;
+                            rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Obstetric_panel
+:Obstetric_panel rdf:type owl:Class ;
+                 rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organ_or_system_related_test
+:Organ_or_system_related_test rdf:type owl:Class ;
+                              rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_count
+:Organism_count rdf:type owl:Class ;
+                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_inhibition_test
+:Organism_inhibition_test rdf:type owl:Class ;
+                          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_killing_test
+:Organism_killing_test rdf:type owl:Class ;
+                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_typing
+:Organism_typing rdf:type owl:Class ;
+                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_virulence_test
+:Organism_virulence_test rdf:type owl:Class ;
+                         rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Virulence,_microbiological_test> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Osmolal_gap_measurement
+:Osmolal_gap_measurement rdf:type owl:Class ;
+                         rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_for_Hepatitis_C
+:PCR_for_Hepatitis_C rdf:type owl:Class ;
+                     rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_for_genomic_fingerprinting
+:PCR_for_genomic_fingerprinting rdf:type owl:Class ;
+                                rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_Chlamydia_trachomatis
+:PCR_test_for_Chlamydia_trachomatis rdf:type owl:Class ;
+                                    rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_Dengue_virus
+:PCR_test_for_Dengue_virus rdf:type owl:Class ;
+                           rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_HIV_1
+:PCR_test_for_HIV_1 rdf:type owl:Class ;
+                    rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_Herpes_simplex
+:PCR_test_for_Herpes_simplex rdf:type owl:Class ;
+                             rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_SARS
+:PCR_test_for_SARS rdf:type owl:Class ;
+                   rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_Toxoplasma
+:PCR_test_for_Toxoplasma rdf:type owl:Class ;
+                         rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#PCR_test_for_meningococcus
+:PCR_test_for_meningococcus rdf:type owl:Class ;
+                            rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Pancreatic_oncofetal_antigen_assay
+:Pancreatic_oncofetal_antigen_assay rdf:type owl:Class ;
+                                    rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Parasitic_identification_method
+:Parasitic_identification_method rdf:type owl:Class ;
+                                 rdfs:subClassOf :Microbiological_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Paroxysmal_nocturnal_hemoglobinuria_cell_marker_analysis
+:Paroxysmal_nocturnal_hemoglobinuria_cell_marker_analysis rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Cell_marker_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD103_count
+:Percentage_CD103_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD10_count
+:Percentage_CD10_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD117_count
+:Percentage_CD117_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD11b_count
+:Percentage_CD11b_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD11c_count
+:Percentage_CD11c_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD13_count
+:Percentage_CD13_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD15_count
+:Percentage_CD15_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD16_count
+:Percentage_CD16_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD19_count
+:Percentage_CD19_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD1a_count
+:Percentage_CD1a_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD22_count
+:Percentage_CD22_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD23_count
+:Percentage_CD23_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD25_count
+:Percentage_CD25_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD2_count
+:Percentage_CD2_count rdf:type owl:Class ;
+                      rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD33_count
+:Percentage_CD33_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD45_count
+:Percentage_CD45_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD55_count
+:Percentage_CD55_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD56_count
+:Percentage_CD56_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD59_count
+:Percentage_CD59_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD5_count
+:Percentage_CD5_count rdf:type owl:Class ;
+                      rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD61_count
+:Percentage_CD61_count rdf:type owl:Class ;
+                       rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD79B_count
+:Percentage_CD79B_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD79a_count
+:Percentage_CD79a_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_CD7_count
+:Percentage_CD7_count rdf:type owl:Class ;
+                      rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_FMC_7_count
+:Percentage_FMC_7_count rdf:type owl:Class ;
+                        rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_KAPPA_cells_count
+:Percentage_KAPPA_cells_count rdf:type owl:Class ;
+                              rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_LAMBDA_cells_count
+:Percentage_LAMBDA_cells_count rdf:type owl:Class ;
+                               rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_TDT_cells_count
+:Percentage_TDT_cells_count rdf:type owl:Class ;
+                            rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_count_of_cells_positive_for_both_CD34_antigen_and_HLA-DR_antigen
+:Percentage_count_of_cells_positive_for_both_CD34_antigen_and_HLA-DR_antigen rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Percentage_glycophorin_count
+:Percentage_glycophorin_count rdf:type owl:Class ;
+                              rdfs:subClassOf :Cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Pharmacokinetic_study
+:Pharmacokinetic_study rdf:type owl:Class ;
+                       rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Phenotype_determination
+:Phenotype_determination rdf:type owl:Class ;
+                         rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Pinworm_slide
+:Pinworm_slide rdf:type owl:Class ;
+               rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_analysis
+:Polymerase_chain_reaction_analysis rdf:type owl:Class ;
+                                    rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_for_Bacillus_anthracis
+:Polymerase_chain_reaction_for_Bacillus_anthracis rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_for_Epstein-Barr_virus
+:Polymerase_chain_reaction_for_Epstein-Barr_virus rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_Adenovirus_group_F
+:Polymerase_chain_reaction_test_for_Adenovirus_group_F rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Polymerase_chain_reaction_test_for_adenovirus .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_Leishmania
+:Polymerase_chain_reaction_test_for_Leishmania rdf:type owl:Class ;
+                                               rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_Leishmania_infantum
+:Polymerase_chain_reaction_test_for_Leishmania_infantum rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Polymerase_chain_reaction_test_for_Leishmania ;
+                                                        owl:disjointWith :Polymerase_chain_reaction_test_for_Leishmania_major .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_Leishmania_major
+:Polymerase_chain_reaction_test_for_Leishmania_major rdf:type owl:Class ;
+                                                     rdfs:subClassOf :Polymerase_chain_reaction_test_for_Leishmania .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_Neisseria_gonorrhoeae
+:Polymerase_chain_reaction_test_for_Neisseria_gonorrhoeae rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_Pneumocystis
+:Polymerase_chain_reaction_test_for_Pneumocystis rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_adenovirus
+:Polymerase_chain_reaction_test_for_adenovirus rdf:type owl:Class ;
+                                               rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Polymerase_chain_reaction_test_for_human_Bocavirus
+:Polymerase_chain_reaction_test_for_human_Bocavirus rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Polymerase_chain_reaction_analysis .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Preparation_of_smear
+:Preparation_of_smear rdf:type owl:Class ;
+                      rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Preparation_of_standardized_bacterial_suspension
+:Preparation_of_standardized_bacterial_suspension rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Procedure
+:Procedure rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Quantitation_of_bacteria
+:Quantitation_of_bacteria rdf:type owl:Class ;
+                          rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Reconstitution_of_lyophilized_culture
+:Reconstitution_of_lyophilized_culture rdf:type owl:Class ;
+                                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Rice_grain_test_for_molds
+:Rice_grain_test_for_molds rdf:type owl:Class ;
+                           rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Rickettsia_species_detection
+:Rickettsia_species_detection rdf:type owl:Class ;
+                              rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_-_microbiological_exam
+:Sample_-_microbiological_exam rdf:type owl:Class ;
+                               rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_bacteriology_general
+:Sample_bacteriology_general rdf:type owl:Class ;
+                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_macroscopy
+:Sample_macroscopy rdf:type owl:Class ;
+                   rdfs:subClassOf :Parasitic_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_mycology_general
+:Sample_mycology_general rdf:type owl:Class ;
+                         rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_parasitology_general
+:Sample_parasitology_general rdf:type owl:Class ;
+                             rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_serology
+:Sample_serology rdf:type owl:Class ;
+                 rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Sample_virology_general
+:Sample_virology_general rdf:type owl:Class ;
+                         rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Serum_P1_phenotype_determination
+:Serum_P1_phenotype_determination rdf:type owl:Class ;
+                                  rdfs:subClassOf :Phenotype_determination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Serum_cidal_titer_measurement
+:Serum_cidal_titer_measurement rdf:type owl:Class ;
+                               rdfs:subClassOf :Organism_killing_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Serum_inhibitory_titer_test
+:Serum_inhibitory_titer_test rdf:type owl:Class ;
+                             rdfs:subClassOf :Organism_inhibition_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Soluble_CD8_T-cell_antigen_assay
+:Soluble_CD8_T-cell_antigen_assay rdf:type owl:Class ;
+                                  rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_processing
+:Specimen_processing rdf:type owl:Class ;
+                     rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#T-cell_antigen_detection
+:T-cell_antigen_detection rdf:type owl:Class ;
+                          rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#T-lymphocyte_precursor_frequency_measurement
+:T-lymphocyte_precursor_frequency_measurement rdf:type owl:Class ;
+                                              rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Tease_mount_preparation
+:Tease_mount_preparation rdf:type owl:Class ;
+                         rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Test_for_molds
+:Test_for_molds rdf:type owl:Class ;
+                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Thermotolerance_test_for_molds
+:Thermotolerance_test_for_molds rdf:type owl:Class ;
+                                rdfs:subClassOf :Test_for_molds .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Thyroid_panel
+:Thyroid_panel rdf:type owl:Class ;
+               rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Thyroid_radioactive_iodine_measurement
+:Thyroid_radioactive_iodine_measurement rdf:type owl:Class ;
+                                        rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Thyroid_stimulating_immunoglobulins_measurement
+:Thyroid_stimulating_immunoglobulins_measurement rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Tissue_examination_for_fungus
+:Tissue_examination_for_fungus rdf:type owl:Class ;
+                               rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Transfer_of_culture_to_holding_media
+:Transfer_of_culture_to_holding_media rdf:type owl:Class ;
+                                      rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Transparent_tape_method_for_fungal_identification
+:Transparent_tape_method_for_fungal_identification rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Fungal_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Tubular_maximal_reabsorptive_capacity_measurement
+:Tubular_maximal_reabsorptive_capacity_measurement rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Ultraviolet_light_examination_of_specimen
+:Ultraviolet_light_examination_of_specimen rdf:type owl:Class ;
+                                           rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urine_inspection
+:Urine_inspection rdf:type owl:Class ;
+                  rdfs:subClassOf :Sample_macroscopy .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Viral_Sequencing
+:Viral_Sequencing rdf:type owl:Class ;
+                  rdfs:subClassOf :Organism_typing ;
+                  owl:disjointWith :Viral_subtyping_by_genomic_sequencing .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Viral_studies
+:Viral_studies rdf:type owl:Class ;
+               rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Viral_subtyping
+:Viral_subtyping rdf:type owl:Class ;
+                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Viral_subtyping_by_genomic_sequencing
+:Viral_subtyping_by_genomic_sequencing rdf:type owl:Class ;
+                                       rdfs:subClassOf :Organism_typing .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification_procedure
+:Yeast_identification_procedure rdf:type owl:Class ;
+                                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibiotic_sensitivity,_disk_method
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibiotic_sensitivity,_disk_method> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibiotic_sensitivity,_fungus
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibiotic_sensitivity,_fungus> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_culture,_urine,_with_organism_identification
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_culture,_urine,_with_organism_identification> rdf:type owl:Class ;
+                                                                                                                        rdfs:subClassOf :Bacterial_identification_method .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_endotoxin_measurement,_tissue_homogenization_for_culture
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_endotoxin_measurement,_tissue_homogenization_for_culture> rdf:type owl:Class ;
+                                                                                                                                    rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD5/19_dual_positive
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD5/19_dual_positive> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :Cluster_of_differentiation_antigen_count_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method> rdf:type owl:Class ;
+                                                                                                                                            rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dark_field_examination,_with_specimen_collection
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Dark_field_examination,_with_specimen_collection> rdf:type owl:Class ;
+                                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_dark_field_examination> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Ear,_nose_and_throat_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Ear,_nose_and_throat_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                                            rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Enteric_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Enteric_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fluid_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fluid_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Genital_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Genital_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_IgG
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_IgG> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :Immunoglobulin_typing .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_Inv
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_Inv> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :Immunoglobulin_typing .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_immunoglobulin_M
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_immunoglobulin_M> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf :Immunoglobulin_typing .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lymphocytes,_T_&_B_cell_evaluation
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lymphocytes,_T_&_B_cell_evaluation> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Immune_cell_phenotyping .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_dark_field_examination
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_dark_field_examination> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_hanging_drop_technique
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_hanging_drop_technique> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_light_microscopy_examination
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_light_microscopy_examination> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_phase_contrast_examination
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_phase_contrast_examination> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_wet_smear,_tease_preparation
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_wet_smear,_tease_preparation> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf :Microbial_wet_smear .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_acid_fast_stain_method
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_acid_fast_stain_method> rdf:type owl:Class ;
+                                                                                                                                 rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_fluorescent_stain_method
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_fluorescent_stain_method> rdf:type owl:Class ;
+                                                                                                                                   rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_routine_stain
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_routine_stain> rdf:type owl:Class ;
+                                                                                                                        rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_special_stain_for_inclusion_bodies_or_intracellular_parasites
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_special_stain_for_inclusion_bodies_or_intracellular_parasites> rdf:type owl:Class ;
+                                                                                                                                                                        rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_wet_mount_with_simple_stain
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_wet_mount_with_simple_stain> rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_wet_and_dry_mount,_for_ova_and_parasites
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_wet_and_dry_mount,_for_ova_and_parasites> rdf:type owl:Class ;
+                                                                                                                                                   rdfs:subClassOf :Microbial_smear_examination .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycobacteria_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycobacteria_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                                    rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycology_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycology_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_count,_microscopic_method
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_count,_microscopic_method> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Plasmodium_falciparum/vivax_screening_test
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Plasmodium_falciparum/vivax_screening_test> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf :Microbiology_screening_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Radionuclide_study,_protein_kinetics
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Radionuclide_study,_protein_kinetics> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf :Pharmacokinetic_study .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Respiratory_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Respiratory_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_collection_and/or_ward_laboratory_procedure
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_collection_and/or_ward_laboratory_procedure> rdf:type owl:Class ;
+                                                                                                                      rdfs:subClassOf :Laboratory_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Tri-iodothyronine_measurement,_total
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Tri-iodothyronine_measurement,_total> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf :Organ_or_system_related_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Turbidity_test,_qualitative
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Turbidity_test,_qualitative> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Turbidity_test,_quantitative
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Turbidity_test,_quantitative> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf :Laboratory_test .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urinary_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urinary_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urine_microscopy_for_organisms_AND/OR_foreign_bodies
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urine_microscopy_for_organisms_AND/OR_foreign_bodies> rdf:type owl:Class ;
+                                                                                                                      rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Virulence,_microbiological_test
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Virulence,_microbiological_test> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf :Microbiology_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Wound_microscopy,_culture_and_sensitivities
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Wound_microscopy,_culture_and_sensitivities> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities> .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_dalmau_plate_test
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_dalmau_plate_test> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf :Yeast_identification_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_direct_mount
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_direct_mount> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Yeast_identification_procedure .
+
+
+###  http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_germ_tube_test
+<http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_germ_tube_test> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf :Yeast_identification_procedure .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Absolute_CD16_count
+                :Absolute_CD19_count
+                :Absolute_CD25_count
+                :Absolute_CD3_count_procedure
+                :Absolute_CD4_count_procedure
+                :Absolute_CD56_count
+                :Absolute_CD8_count_procedure
+                :CD103_count
+                :CD10_count
+                :CD11c_count
+                :CD13_myeloid_count_procedure
+                :CD14_monocyte_count_procedure
+                :CD16_count
+                :CD19_B-cell_count_procedure
+                :CD1a_count
+                :CD21_count
+                :CD22_B-cell_count_procedure
+                :CD34_stem_cell_count_procedure
+                :CD38_count
+                :CD3_T-cell_count_procedure
+                :CD41_count
+                :CD5_count
+                :CD64_count
+                :CD79b_count
+                :Cluster_of_differentiation_antigen_38_percentage_count_procedure
+                :Cluster_of_differentiation_antigen_57_percentage_count_procedure
+                :Cluster_of_differentiation_antigen_59_count_procedure
+                :Count_of_cells_positive_for_CD3_antigen_and_CD4_antigen_and_CD8_antigen
+                :Count_of_cells_positive_for_both_CD10_antigen_and_CD19_antigen
+                :Count_of_cells_positive_for_both_CD19_antigen_and_CD38_antigen
+                :Count_of_cells_positive_for_both_CD19_antigen_and_kappa_immunoglobulin_light_chain
+                :Count_of_cells_positive_for_both_CD19_antigen_and_lambda_immunoglobulin_light_chain
+                :Count_of_cells_positive_for_both_CD20_antigen_and_CD23_antigen
+                :Count_of_cells_positive_for_both_CD3_antigen_and_CD56_antigen
+                :Hairy_cell_marker_test
+                :Percentage_CD103_count
+                :Percentage_CD10_count
+                :Percentage_CD117_count
+                :Percentage_CD11b_count
+                :Percentage_CD11c_count
+                :Percentage_CD13_count
+                :Percentage_CD15_count
+                :Percentage_CD16_count
+                :Percentage_CD19_count
+                :Percentage_CD1a_count
+                :Percentage_CD22_count
+                :Percentage_CD23_count
+                :Percentage_CD25_count
+                :Percentage_CD2_count
+                :Percentage_CD33_count
+                :Percentage_CD45_count
+                :Percentage_CD55_count
+                :Percentage_CD56_count
+                :Percentage_CD59_count
+                :Percentage_CD5_count
+                :Percentage_CD61_count
+                :Percentage_CD79B_count
+                :Percentage_CD79a_count
+                :Percentage_CD7_count
+                :Percentage_FMC_7_count
+                :Percentage_KAPPA_cells_count
+                :Percentage_LAMBDA_cells_count
+                :Percentage_TDT_cells_count
+                :Percentage_count_of_cells_positive_for_both_CD34_antigen_and_HLA-DR_antigen
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#CD5/19_dual_positive>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Alpha-1-antitrypsin_phenotype_determination
+                :Apolipoprotein_E_phenotype_determination
+                :Cell_phenotyping
+                :Cholinesterase_phenotype_determination
+                :Serum_P1_phenotype_determination
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Anatomic_pathology_procedure
+                :Cryopreservation
+                :Determination_of_acetylation_rate
+                :Laboratory_procedure_categorized_by_method
+                :Laboratory_procedure_related_to_reproduction
+                :Laboratory_test_order_by_laboratory_initiative
+                :Laboratory_test_order_cancelation
+                :Molecular_genetics_procedure
+                :Preparation_of_smear
+                :Specimen_processing
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Chromosome_analysis,_cytogenetic_procedure_AND/OR_molecular_biology_method>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Specimen_collection_and/or_ward_laboratory_procedure>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Antibacterial_substance_screening_test
+                :Malarial_parasite_screening_test
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Plasmodium_falciparum/vivax_screening_test>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Antimicrobial_susceptibility_test
+                :Bacterial_count
+                :Bacterial_strain_typing
+                :Bacterial_subtyping
+                :Bacterial_typing_procedure
+                :Bacteriology_-_general
+                :CLO_test_for_helicobacter_pylori
+                :Centrifugation_following_chemical_treatment
+                :Colony_count
+                :Concentration_for_ova_and_cysts
+                :Cover_slip_preparation
+                :Crystal_identification
+                :Culture_and_susceptibility
+                :Culture_sensitivity
+                :Dairy_food_test
+                :Detection_of_bacteria
+                :Detection_of_fungus
+                :Detection_of_parasite
+                :Detection_of_virus
+                :Detection_of_virus_particle
+                :Determination_of_organism_growth
+                :Egg_inoculation
+                :Employee_health_culture
+                :Endophyte_identification
+                :Environmental_culture
+                :Eutrophication
+                :Examination_of_feces
+                :Freezing_and_thawing_of_culture
+                :Fungal_killing_test
+                :Fungal_studies
+                :Fungal_subtyping
+                :Grinding_of_tissue_for_culture
+                :Handling_of_microbiologic_test_report
+                :Identification_procedure_for_living_organism
+                :Infection_control_culture_overnight
+                :Infectious_agent_genotype_identification
+                :Kirby_Bauer_test
+                :Liquefaction_of_specimen_with_chemical_treatment
+                :Liquefaction_of_specimen_without_chemical_treatment
+                :Lyophilization_of_culture
+                :Lysozyme_resistance_test
+                :MUG_test
+                :Methylene_blue_plating_test
+                :Microbial_culture
+                :Microbial_identification_test
+                :Microbial_ova-parasite_examination
+                :Microbial_smear_examination
+                :Microbiologic_media_preparation
+                :Microbiological_identification_method
+                :Microbiology
+                :Microbiology_battery_test
+                :Microbiology_screening_test
+                :Motility_test
+                :Mycobacterial_subtyping
+                :Mycology
+                :Novobiocin_susceptibility_test
+                :Organism_count
+                :Organism_inhibition_test
+                :Organism_killing_test
+                :Organism_typing
+                :Pinworm_slide
+                :Preparation_of_standardized_bacterial_suspension
+                :Quantitation_of_bacteria
+                :Reconstitution_of_lyophilized_culture
+                :Rickettsia_species_detection
+                :Sample_-_microbiological_exam
+                :Sample_bacteriology_general
+                :Sample_mycology_general
+                :Sample_parasitology_general
+                :Sample_virology_general
+                :Tease_mount_preparation
+                :Test_for_molds
+                :Tissue_examination_for_fungus
+                :Transfer_of_culture_to_holding_media
+                :Ultraviolet_light_examination_of_specimen
+                :Viral_studies
+                :Viral_subtyping
+                :Yeast_identification_procedure
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibiotic_sensitivity,_disk_method>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Antibiotic_sensitivity,_fungus>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Bacterial_endotoxin_measurement,_tissue_homogenization_for_culture>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Organism_count,_microscopic_method>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urine_microscopy_for_organisms_AND/OR_foreign_bodies>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Virulence,_microbiological_test>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :B-cell_antigen_detection
+                :Cell_marker_analysis
+                :Cytotoxic_T-lymphocyte_precursor_frequency_determination
+                :Helper_T-cell_antigen_measurement
+                :Helper_suppressor_ratio_determination
+                :Immunoglobulin_typing
+                :Myeloid_antigen_detection
+                :Natural_killer_cell_antigen_detection
+                :Nonlineage_cell_antigen_detection
+                :Pancreatic_oncofetal_antigen_assay
+                :Soluble_CD8_T-cell_antigen_assay
+                :T-cell_antigen_detection
+                :T-lymphocyte_precursor_frequency_measurement
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Lymphocytes,_T_&_B_cell_evaluation>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Bacterial_identification_method
+                :Fungal_identification_method
+                :Parasitic_identification_method
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Bacterial_killing_test
+                :Minimum_fungicidal_concentration_measurement
+                :Serum_cidal_titer_measurement
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Ballistospore_test_for_molds
+                :Cyclohexamide_resistance_test_for_molds
+                :Exoantigen_test_for_molds
+                :In_vitro_hair_test_for_molds
+                :Mold_to_yeast_conversion_test
+                :Nutritional_test_for_molds
+                :Rice_grain_test_for_molds
+                :Thermotolerance_test_for_molds
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Blastomyces_dermatitidis_exoantigen_identification
+                :Coccidioides_immitis_exoantigen_identification
+                :Histoplasma_capsulatum_exoantigen_identification
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Broth_microdilution_susceptibility_test_for_Mycobacteria
+                :Broth_microdilution_susceptibility_test_for_Nocardia
+                :Broth_microdilution_susceptibility_test_for_anaerobes
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CD20_B-cell_count_procedure
+                :CD23_B-cell_count_procedure
+                :CD2_T-cell_count_procedure
+                :CD33_myeloid_cell_count_procedure
+                :CD3_percent_count
+                :CD4_percent_count
+                :CD7_T-cells_count_procedure
+                :CD8_percent_count
+                :Lymphocyte_count_by_CD_antigen_phenotype
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cell_chromosome_examination
+                :Chemical_test_qualitative_and_quantitative
+                :Chemical_test_quantitative
+                :Chemical_test_semi-quantitative
+                :Cytochemical_test
+                :Cytologic_test
+                :Dynamic_endocrine_function_test
+                :Evaluation_of_acid-base_test
+                :Evaluation_of_hypoglycemic_response
+                :Evaluation_of_iron_stores
+                :Evocative_or_suppression_testing_panel
+                :Examination_of_cells
+                :Fecal_starch_test
+                :Fine_needle_aspirate_with_routine_interpretation_and_report
+                :Food_analysis
+                :Free_radical_assay_technique_measurement
+                :General_health_panel
+                :Genetic_test
+                :Genotype_determination
+                :Hematology_procedure
+                :Histologic_test
+                :Immunology_laboratory_test
+                :Infertility_studies
+                :Liver_function_tests_-_general
+                :Maternal_cervical_assessment
+                :Menopausal_profile
+                :Microbiology_procedure
+                :Obstetric_panel
+                :Organ_or_system_related_test
+                :Osmolal_gap_measurement
+                :Pharmacokinetic_study
+                :Phenotype_determination
+                :Polymerase_chain_reaction_analysis
+                :Sample_serology
+                :Tubular_maximal_reabsorptive_capacity_measurement
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Turbidity_test,_qualitative>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Turbidity_test,_quantitative>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cell_count_by_CD_antigen_phenotype
+                :FMC7_absolute_count
+                :Immune_cell_phenotyping
+                :Lymphocyte_count_by_cell_surface_antigen_phenotype
+                :Percentage_glycophorin_count
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cerebrospinal_fluid_microscopy_culture_and_sensitivities
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Ear,_nose_and_throat_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Enteric_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Fluid_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Genital_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycobacteria_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Mycology_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Respiratory_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Urinary_microscopy,_culture_and_sensitivities>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Wound_microscopy,_culture_and_sensitivities>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Detection_of_Genus_Ehrlichia_using_polymerase_chain_reaction_technique
+                :Detection_of_Helicobacter_pylori_using_polymerase_chain_reaction_technique
+                :Detection_of_Human_herpesvirus_3_using_polymerase_chain_reaction_technique
+                :Detection_of_Human_herpesvirus_6_using_polymerase_chain_reaction_technique
+                :Detection_of_Human_herpesvirus_8_using_polymerase_chain_reaction_technique
+                :Detection_of_Influenza_A_virus_subtype_H1N1_using_polymerase_chain_reaction_technique
+                :Detection_of_Measles_virus_using_polymerase_chain_reaction_technique
+                :Detection_of_Treponema_pallidum_using_polymerase_chain_reaction_technique
+                :Detection_of_avian_influenza_A_using_polymerase_chain_reaction_technique
+                :PCR_for_Hepatitis_C
+                :PCR_for_genomic_fingerprinting
+                :PCR_test_for_Chlamydia_trachomatis
+                :PCR_test_for_Dengue_virus
+                :PCR_test_for_HIV_1
+                :PCR_test_for_Herpes_simplex
+                :PCR_test_for_SARS
+                :PCR_test_for_Toxoplasma
+                :PCR_test_for_meningococcus
+                :Polymerase_chain_reaction_for_Bacillus_anthracis
+                :Polymerase_chain_reaction_for_Epstein-Barr_virus
+                :Polymerase_chain_reaction_test_for_Leishmania
+                :Polymerase_chain_reaction_test_for_Neisseria_gonorrhoeae
+                :Polymerase_chain_reaction_test_for_Pneumocystis
+                :Polymerase_chain_reaction_test_for_adenovirus
+                :Polymerase_chain_reaction_test_for_human_Bocavirus
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Hepatic_function_panel
+                :Kidney_panel
+                :Lipid_panel
+                :Thyroid_panel
+                :Thyroid_radioactive_iodine_measurement
+                :Thyroid_stimulating_immunoglobulins_measurement
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Tri-iodothyronine_measurement,_total>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Iron_absorption_measurement
+                :Iron_clearance_measurement
+                :Iron_utilization_measurement
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Microbial_dry_smear
+                :Microbial_wet_smear
+                :Microscopic_examination_of_bacterial_smear_of_blood_specimen
+                :Microscopic_examination_of_bacterial_smear_of_cerebrospinal_fluid_specimen
+                :Microscopic_examination_of_bacterial_smear_of_joint_fluid_specimen
+                :Microscopic_examination_of_bacterial_smear_of_lymph_fluid_specimen
+                :Microscopic_examination_of_bacterial_smear_of_seminal_fluid_specimen
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_biliary_tract
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_bladder
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_bone_marrow
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_endocrine_gland
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_eye_proper
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_female_genital_tract
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_integument
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_kidney
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_liver
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_lower_gastrointestinal_tract
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_lymph_node
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_musculoskeletal_system
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_nervous_system
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_pancreas
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_peritoneum
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_perivesical_tissue
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_prostate
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_retroperitoneum
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_seminal_vesicle
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_spleen
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_surgical_wound
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_upper_gastrointestinal_tract
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_ureter
+                :Microscopic_examination_of_bacterial_smear_of_specimen_from_urethra
+                :Microscopic_examination_of_bacterial_smear_of_sputum_specimen
+                :Microscopic_examination_of_bacterial_smear_of_stool_specimen
+                :Microscopic_examination_of_bacterial_smear_of_urine_specimen
+                :Microscopic_examination_of_bacterial_smear_of_vomitus_specimen
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_dark_field_examination>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_hanging_drop_technique>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_light_microscopy_examination>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbial_smear,_phase_contrast_examination>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_acid_fast_stain_method>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_fluorescent_stain_method>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_routine_stain>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_special_stain_for_inclusion_bodies_or_intracellular_parasites>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_wet_mount_with_simple_stain>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Microbiologic_smear_with_interpretation,_wet_and_dry_mount,_for_ova_and_parasites>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_IgG>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_Inv>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Immunoglobulin_typing,_immunoglobulin_M>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_dalmau_plate_test>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_direct_mount>
+                <http://www.semanticweb.org/juliet/ontologies/2019/6/hcontology#Yeast_identification,_germ_tube_test>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
